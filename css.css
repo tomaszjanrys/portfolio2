@@ -1,0 +1,228 @@
+body {
+    margin: 0%;
+}
+
+header {
+    box-shadow: 4px 3px 4px black;
+    background: url(backg-min.jpg);
+    background-position: 20% 40%;
+    float: left;
+    opacity: 0.8;
+    width: 100%;
+    height: 600px;
+}
+
+.text {
+    color: aliceblue;
+    font-size: 8vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 50px;
+    writing-mode: vertical-lr;
+}
+
+
+/*
+menu
+*/
+
+nav {
+    float: left;
+    font-size: 25px;
+    font-size: 4vmin;
+    min-height: 50px;
+    overflow: hidden;
+    padding-top: 10px;
+    width: 100%;
+}
+
+.art {
+    background: linear-gradient(to top, black 0%, rgb(14, 14, 14) 100%);
+    color: orangered;
+    float: left;
+    height: 70px;
+    padding-top: 5px;
+    padding-left: 10px;
+    width: 20%;
+}
+
+.ikonka {
+    margin-right: 10px;
+}
+
+.ikonka2 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.qoute {
+    background: linear-gradient(to top, black 0%, rgb(14, 14, 14) 100%);
+    color: rgb(141, 141, 141);
+    float: left;
+    font-size: 3vmin;
+    height: 70px;
+    padding-top: 10px;
+    text-align: center;
+    width: 60%;
+}
+
+.about {
+    background: linear-gradient(to top, black 0%, rgb(14, 14, 14) 100%);
+    color: orangered;
+    float: left;
+    height: 70px;
+    padding-top: 5px;
+    text-align: right;
+    width: 20%;
+}
+
+
+/*
+End Menu
+*/
+
+.kategorie {
+    float: left;
+    margin-top: 10px;
+}
+
+.minfoto {
+    border: 2px solid black;
+    box-shadow: 5px 5px 9px black;
+}
+
+
+/*
+End Menu
+*/
+
+
+/*
+wybor kategori
+*/
+
+.foto {
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+    filter: alpha(opacity=40);
+    opacity: 0.4;
+}
+
+.foto:hover {
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+    filter: alpha(opacity=100);
+    opacity: 1.0;
+}
+
+
+/*
+End
+*/
+
+
+/*
+Właścowpśći obrazka go home 
+*/
+
+.gohome {
+    filter: alpha(opacity=40);
+    opacity: 0.2;
+}
+
+.gohome:hover {
+    filter: alpha(opacity=100);
+    opacity: 1.0;
+}
+
+
+/*
+End
+*/
+
+.ikona {
+    opacity: 0.1;
+    margin-left: 25%;
+}
+
+.minfoto {
+    border: 2px solid black;
+    box-shadow: 5px 5px 9px black;
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+}
+
+.tloikonka {
+    float: left;
+    margin-left: 30%;
+}
+
+.thepeoples {
+    float: left;
+    margin-top: 200px;
+    width: 100%;
+}
+
+.theitems {
+    float: left;
+    margin-top: 200px;
+    width: 100%;
+}
+
+.thenature {
+    float: left;
+    margin-top: 200px;
+    width: 100%;
+}
+
+.thebackground {
+    float: left;
+    margin-top: 200px;
+    width: 100%;
+}
+
+.titleheader {
+    text-align: center;
+}
+
+.carousel-inner img {
+    width: 98%;
+    border: 20px solid black;
+}
+
+.textheader {
+    display: inline;
+    font-weight: 100;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 3vw;
+}
+
+.gohome {
+    display: inline;
+    margin-bottom: 1.5%;
+    margin-left: 10%;
+    width: 5%;
+}
+
+.aboutme {
+    float: left;
+    margin-top: 200px;
+    width: 100%;
+}
+
+footer {
+    background-color: rgb(78, 80, 82);
+}
+
+h6,
+{
+    font-weight: lighter;
+}
+
+.footer {
+    margin-top: 100px;
+}
+
+.about-1 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+}
